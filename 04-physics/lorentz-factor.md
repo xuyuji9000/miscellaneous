@@ -9,25 +9,22 @@ $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$
 
 $v=0.5c$ 
 
-$ \frac{v^2}{c^2} 
+$\frac{v^2}{c^2} 
 = \frac{0.5^2c^2}{c^2} 
 = \frac{0.5^2}{1} 
 = \frac{0.25}{1} 
-= \frac{1}{4}
-$
+= \frac{1}{4}$
 
-$ \sqrt{1 - \frac{v^2}{c^2}} 
+$\sqrt{1 - \frac{v^2}{c^2}} 
 = \sqrt{1 - \frac{1}{4}} 
 = \sqrt{\frac{3}{4}} 
-= \frac{\sqrt{3}}{2}
-$
+= \frac{\sqrt{3}}{2}$
 
-$ \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}  
+$\frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}
 = \frac{1}{\frac{\sqrt{3}}{2}}
 = \frac{2}{\sqrt{3}}
 \approx \frac{2}{1.732}
-\approx 1.1547
-$
+\approx 1.1547$
 
 When $v=0.5c$ , then $\gamma \approx 1.1547$ .
 
