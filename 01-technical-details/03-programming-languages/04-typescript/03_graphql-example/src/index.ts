@@ -1,5 +1,6 @@
 import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
+import fs from 'node:fs';
 
 // A schema is a collection of type definitions (hence "typeDefs")
 // that together define the "shape" of queries that are executed against
@@ -22,16 +23,7 @@ const typeDefs = `#graphql
 `;
 
 // Some fake data
-const books = [
-  {
-    title: 'The Awakening',
-    author: 'Kate Chopin',
-  },
-  {
-    title: 'City of Glass',
-    author: 'Paul Auster',
-  },
-];
+const books = JSON.parse(fs.readFileSync(new URL('../data/books.json', import.meta.url), 'utf-8'));
 
 // Resolvers define how to fetch the types defined in your schema.
 // This resolver retrieves books from the "books" array above.
