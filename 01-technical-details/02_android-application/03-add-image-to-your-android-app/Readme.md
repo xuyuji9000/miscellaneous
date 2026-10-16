@@ -1,1 +1,0 @@
-This folder contains the learning from tutorial [Add images to your Android app](https://developer.android.com/codelabs/basic-android-kotlin-compose-add-images) .
